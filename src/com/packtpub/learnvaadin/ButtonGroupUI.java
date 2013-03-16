@@ -2,11 +2,13 @@ package com.packtpub.learnvaadin;
 
 import org.vaadin.peter.buttongroup.ButtonGroup;
 
+import com.vaadin.annotations.Widgetset;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.UI;
 
 @SuppressWarnings("serial")
+@Widgetset("com.packtpub.learnvaadin.widgetset.ButtongroupWidgetset")
 public class ButtonGroupUI extends UI {
 
 	@Override

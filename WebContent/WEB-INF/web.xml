@@ -8,10 +8,6 @@
 			<param-name>UI</param-name>
 			<param-value>com.packtpub.learnvaadin.ButtonGroupUI</param-value>
 		</init-param>
-		<init-param>
-			<param-name>widgetset</param-name>
-			<param-value>com.packtpub.learnvaadin.widgetset.ButtongroupWidgetset</param-value>
-		</init-param>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>Buttongroup Application</servlet-name>
